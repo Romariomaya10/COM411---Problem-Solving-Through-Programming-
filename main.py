@@ -1,10 +1,13 @@
 print("what is your name?")
-#Variable is a container, which can store data for us in the memory (string, integer, float , bool)
-name = input ()
-print ("what is your age?")
-age = int(input())
-print("what is your bank balance?")
-balance = float(input())
+n = input() 
+print("Do you have a dog? (types true or False)")
+dog = bool(input())
+#bool is a boolean datatype - only stores True/False
 
-print("welcome {}. You are said to be {} years old. Your bank balance is {}.".format(name, age, balance))
-  
+
+if len(n) > 9 and dog == "True":
+ print("your have a very looong name!")
+ print ("your name contains {} letters".format(len))
+else:
+  print("You name is quite ok")
+print("This is the END of the program!")
