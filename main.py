@@ -7,7 +7,7 @@ dog = input()
 
 if len(n) > 9 and dog == "True":
  print("your have a very looong name!")
- print ("your name contains {} letters".format(len))
+ print ("your name contains {} letters".format(len(n)))
 else:
   print("You name is quite ok")
 print("This is the END of the program!")
