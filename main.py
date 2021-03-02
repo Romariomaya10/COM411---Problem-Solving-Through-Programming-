@@ -1,7 +1,7 @@
 print("what is your name?")
 n = input() 
 print("Do you have a dog? (types true or False)")
-dog = bool(input())
+dog = input()
 #bool is a boolean datatype - only stores True/False
 
 
