@@ -5,10 +5,3 @@ while (cable > 0):
  print("Removed cable")
  cable = cable - 1
 print ("completed")
-
-
-
-
-
-
-
